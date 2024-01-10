@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(6, 7, 87);
+    padding: 10px;
+}
+.toDoApp{
+    width: 100%; 
+    height: auto;
+    max-width: 540px;
+    margin: 200px auto;
+    padding: 40px 30px 70px;
+    background-color: white;
+    border-radius: 10px;
+}
+#headding{
+    font-size: 50px;
+    color: rgb(6, 7, 87);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+#userInput{
+    flex: 1;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#addButton{
+    padding: 20px 40px;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    color: rgb(6, 7, 87);
+    background-color: rgb(247, 83, 24);
+    cursor: pointer;
+}
+#addButton:hover{
+    background-color: orangered;
+    color: white;
+}
+#taskCount{
+    font-size: 28px;
+    color: rgb(6, 7, 87);
+    background-color: aliceblue;
+}
+.row2{
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+#allCompleteButton{
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: rgb(54, 243, 54);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+#allCompleteButton:hover{
+    background-color: rgb(8, 240, 8);
+    color: white;
+}
+#allClearButton{
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: rgb(243, 48, 48);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+#allClearButton:hover{
+    background-color: rgb(238, 5, 5);
+    color: white;
+
+}
