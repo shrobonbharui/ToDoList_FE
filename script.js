@@ -5,17 +5,12 @@ const allCompleteButton = document.getElementById('allCompleteButton');
 const allClearButton = document.getElementById('allClearButton');
 const taskList = document.getElementById('taskList');
 
+
 addButton.addEventListener("click", addTask);
 
 allCompleteButton.addEventListener("click", toggleAllCompleted);
 
 allClearButton.addEventListener("click", clearAllTasks);
-
-userInput.addEventListener("keydown", function(event) {
-    if (event.key === "Enter") {
-      addTask();
-    }
-  });
 
 function addEventListeners(li) {
     const check = li.querySelector(".check");
@@ -44,6 +39,7 @@ function addTask (){
     }
 }
 
+
 function toggleTask(event) {
     const check = event.target;
     const task = check.parentElement;
@@ -57,6 +53,7 @@ function deleteTask(event) {
     taskList.removeChild(task);
     updateTaskCount();
 }
+
 
 function toggleAllCompleted() {
     const tasks = taskList.children;
@@ -92,11 +89,13 @@ function toggleAllCompleted() {
     updateTaskCount();
 }
 
+
 function clearAllTasks() {
     taskList.innerHTML = ""; 
     updateTaskCount();
 }
   
+
 function updateTaskCount() {
     const totalTasks = taskList.children.length;
     const completedTasks = taskList.querySelectorAll(".completed").length;
