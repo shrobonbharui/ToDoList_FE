@@ -1,6 +1,6 @@
-# TO-DO LIST:-
-The project called "To-Do List" is a web application that enables users to efficiently organize and handle their task lists. Developed with HTML, CSS and JavaScript this application offers an user friendly interface, for adding, managing and marking tasks as completed.
-# Features :-
+# TO-DO LIST
+The project called "To-Do List" is a web application that enables users to efficiently organize and handle their task lists. This application offers an user friendly interface, for adding, managing, marking and delete tasks as completed.
+# Features
    ### 1.Added Task:-
    If you add any task in this app, then you write the task in the input box and press the add button.
    ### 2.Complite Task:-
@@ -13,5 +13,10 @@ The project called "To-Do List" is a web application that enables users to effic
    If you click All clear button, then your all task shuld be deleted.
    ### 6.Count:-
    One counter also avelable in this app. Which count your total task and complited task.
-# DEMO :- 
+# Technologies Used
+     1. HTML
+     2. CSS
+     3. JAVA SCRIPT
+# DEMO
       https://shrobonbharui.github.io/ToDoList_FE/
+# Screenshot       
